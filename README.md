@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-AI-Security-Posture-Management-AI-SPM/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Security-Posture-Management-AI-SPM?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Security-Posture-Management-AI-SPM/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Security-Posture-Management-AI-SPM?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Security-Posture-Management-AI-SPM/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Security-Posture-Management-AI-SPM?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Security-Posture-Management-AI-SPM/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -72,7 +72,7 @@ The table below outlines category-defining commercial platforms providing enterp
 
 ## 💻 Open-Source GitHub Projects
 
-The following self-hosted and community-driven AI security tools are **sorted descending by GitHub star count**. Each entry features a live star count badge linking directly to the project's stargazers.
+The following self-hosted and community-driven AI security tools are **sorted descending by GitHub Stars_Count**. Each entry features a live Stars_Count badge linking directly to the project's stargazers.
 
 - ### 1. **[DeepEval](https://github.com/confident-ai/deepeval)** [![Stars](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&color=white)](https://github.com/confident-ai/deepeval/stargazers)
   - **Core Focus**: Production-grade LLM evaluation, hallucination detection, and red teaming framework.
@@ -180,7 +180,7 @@ Contributions are welcome and highly appreciated! To maintain the quality and cl
 2. 🌿 **Create a new branch**: `git checkout -b feature/add-new-ai-spm-tool`.
 3. 📝 **Add or update an entry**: Ensure descriptions are objective and include:
    - For SaaS tools: Company valuation/revenue, pricing starting tier, and exact free tier/trial limits.
-   - For Open-Source tools: Link to repository, star badge, primary focus, features, tech stack, and target use case.
+   - For Open-Source tools: Link to repository, Stars_Badge, primary focus, features, tech stack, and target use case.
 4. 🧪 **Check formatting**: Ensure Markdown tables, badges, and links render properly.
 5. 🚀 **Submit a Pull Request** with a concise explanation of the addition.
 
