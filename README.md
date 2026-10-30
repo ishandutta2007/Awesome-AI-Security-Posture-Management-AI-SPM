@@ -1,48 +1,60 @@
-# Awesome-AI-Security-Posture-Management-AI-SPM
+# 🛡️ Awesome AI Security Posture Management (AI-SPM)
 
-# Awesome-AI-Security-Posture-Management-AI-SPM
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome AI Security Posture Management (AI-SPM) Banner" width="100%" />
+</p>
 
-**Top AI Security Posture Management AI SPM (Opensource) 🌟 Star if you like it! 🌟**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Security-Posture-Management-AI-SPM/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Security-Posture-Management-AI-SPM?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Security-Posture-Management-AI-SPM/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Security-Posture-Management-AI-SPM?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Security-Posture-Management-AI-SPM/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+<p align="center">
+  <strong>🌟 Curated List of SaaS Platforms, Frameworks & Open-Source Tools for AI Security Posture Management (AI-SPM) 🌟</strong>
+  <br />
+  <em>Tracking Shadow AI Discovery, Model Supply Chain Integrity, Runtime LLM Guardrails, Red Teaming & AI Governance Compliance (EU AI Act, ISO 42001, NIST AI RMF).</em>
+  <br />
+  <strong>📅 Last updated: October 2026</strong>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+## 📖 Overview
 
-*Focused on AI Asset Discovery, Model Supply Chain Security, Runtime Guardrails & AI Governance*
+**AI Security Posture Management (AI-SPM)** is an emerging cybersecurity and DevSecOps discipline dedicated to safeguarding artificial intelligence systems across their lifecycle. As modern enterprises deploy Large Language Models (LLMs), autonomous agents, Retrieval-Augmented Generation (RAG) pipelines, and fine-tuned models, traditional cloud security posture management (CSPM) and application security (AppSec) solutions fall short.
 
-**Last updated: October 2026**
+This repository tracks the leading **commercial enterprise platforms** and **open-source security projects** that empower security engineers and AI platform teams to:
+- 🔍 **Discover Shadow AI**: Continuously map internal LLM usage, third-party foundation model APIs (OpenAI, Anthropic, Bedrock, Vertex AI), and unvetted MCP servers.
+- 📦 **Secure the Model Supply Chain**: Detect serialization exploits (pickle, safe tensors), scan training datasets for poisoning, and enforce ML-BOM (Machine Learning Bill of Materials).
+- ⚡ **Enforce Runtime Guardrails & Inference Defense**: Block prompt injections, jailbreaks, data exfiltration, and toxic outputs with ultra-low latency.
+- 📋 **Automate AI Governance & Regulatory Audits**: Maintain cryptographic proof of compliance across the **EU AI Act**, **NIST AI Risk Management Framework (RMF)**, and **ISO/IEC 42001**.
 
+---
 
+## 📑 Table of Contents
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Security Posture Management (AI-SPM)**. These tools enable security teams to discover shadow AI, assess model and agent vulnerabilities, enforce runtime guardrails, and demonstrate governance compliance—from fully managed enterprise platforms with agentless discovery and unified threat correlation to self-hosted scanners and governance workbenches that give teams complete control over their AI security telemetry and policy enforcement.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
 
+---
 
-
-**Examples** include CrowdStrike Falcon AI-SPM, Protect AI, HiddenLayer, Lakera, Robust Intelligence, CalypsoAI, Patronus AI, Fiddler AI, and Aporia (the category leaders in commercial space).
-
-
-
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted AI security scanning, governance, and observability. **Critical note**: The open-source AI-SPM landscape is nascent—**Nephilex** and **AI-Secure-Posture-Management** are early-stage scanners, while **VerifyWise** and **Aegis** focus on governance rather than runtime posture. No open-source project matches CrowdStrike's agentless discovery across managed AI services or Lakera's application-layer prompt injection defense.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global AI security and posture management market is projected to reach approximately **$35.4B to $37.1B in 2026** (scaling toward **$71.6B–$93.7B+ by 2030** at an estimated CAGR of 19%–24%). Market dynamics reflect a **hybrid structure: concentrated at the enterprise cloud core** (dominated by platform giants like CrowdStrike, Cisco, and Palo Alto Networks acquiring specialists), yet **highly fragmented across specialized runtime guardrails, prompt injection defenses, and governance niches** where venture-backed innovators continue to emerge.
 
-## SaaS/Hosted Platforms
+---
+
+## 🏢 SaaS/Hosted Platforms
+
+The table below outlines category-defining commercial platforms providing enterprise AI-SPM, automated red teaming, inference firewalls, and model observability, **sorted descending by company size (valuation / market capitalization / revenue)**:
 
 | Platform | Company Size (Valuation / Revenue) | Focus & Core Capabilities | Pricing (Starting Tier) | Free Tier Limits / Trial |
 | :--- | :--- | :--- | :--- | :--- |
@@ -56,108 +68,147 @@ The global AI security and posture management market is projected to reach appro
 | **[Patronus AI](https://www.patronus.ai/)** | **~$150M–$200M valuation** ($70M funding raised; $50M Series B in June 2026; 15x ARR surge) | Automated LLM evaluation, AI hallucination detection, prompt attack benchmarking, continuous red teaming | Personal plan starts at **€6.99/month** (Pro plan at **€69/month**; custom Business plans available) | **Free forever plan: 30,000 Scan Units/month** (with 1 API key & 50,000 token balance limit; or 100 Scan Units/day anonymous) |
 | **[Aporia](https://www.aporia.com/)** | **$50M acquisition valuation** (acquired by Coralogix; ~$8.4M ARR; $30M funding prior) | Real-time AI guardrails, prompt filtering, latency-sensitive hallucination mitigation, ML monitoring | Scaler starting tier at **$1,500/month** ($18,000/year base; volume scales per inference request) | **14-day free trial** with full platform features (includes monitoring & guardrails for up to 100,000 requests) |
 
-## Open-Source GitHub Projects
+---
 
+## 💻 Open-Source GitHub Projects
 
+The following self-hosted and community-driven AI security tools are **sorted descending by GitHub star count**. Each entry features a live star count badge linking directly to the project's stargazers.
 
-- **[Nephilex](https://pypi.org/project/nephilex/)**
+- ### 1. **[DeepEval](https://github.com/confident-ai/deepeval)** [![Stars](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&color=white)](https://github.com/confident-ai/deepeval/stargazers)
+  - **Core Focus**: Production-grade LLM evaluation, hallucination detection, and red teaming framework.
+  - **Features**: 14+ test metrics covering OWASP LLM vulnerabilities, hallucination, bias, answer relevancy, and toxicity; automated unit testing for LLM applications in CI/CD pipelines; synthetic dataset generation; real-time test run visualizations.
+  - **Tech Stack**: Python (`pip install deepeval`), PyTorch, LangChain, LlamaIndex integration.
+  - **Best For**: AI engineers and security teams needing automated regression testing and vulnerability evaluations for LLM and RAG pipelines before production release.
 
-  **Open-source AI security engineer** (license per PyPI) — **the most comprehensive open-source AI security scanner** found in this research, with a **first-class LLM and agent security scanner covering OWASP LLM Top 10** . **Features**: Project analysis with secrets, dependency, SAST, and IaC scanners; **LLM/agent security scanner** (64.3% recall, 69.2% precision on held-out cases); **Attack Simulation Mode**; deterministic patch generation with self-verification (`nephilex fix` applies verified fixes to a branch and optionally opens a PR); live OSV vulnerability data; multi-provider AI enrichment (local heuristic, Ollama, Anthropic, OpenAI—falls back to heuristic if unavailable); SARIF/GitLab/Markdown/HTML/CSV reporting; AST data-flow scanning for Python and JS/TS; baseline and diff-aware scanning . **Benchmarks**: OWASP BenchmarkPython score +89.4 (vs. Bandit +18.6, Semgrep +14.2); SecurityEval 32/121 samples detected (tied with Bandit) . **Tech stack**: Python (pip install). **Deploy**: CLI (`nephilex scan ./my-app`, `nephilex fix ./my-app --open-pr`). **Trade-off**: **Scanner, not a posture management platform**—it scans code repositories for AI security issues but does not discover runtime AI assets, monitor model behavior, or enforce runtime guardrails. Held-out recall on real fix commits is low (2.0%), reflecting the difficulty of the task . **Best for**: developers and security engineers wanting to shift AI security left—scanning repositories for LLM/agent vulnerabilities and automatically fixing verified issues before deployment.
+- ### 2. **[garak](https://github.com/NVIDIA/garak)** [![Stars](https://img.shields.io/github/stars/NVIDIA/garak?style=social&color=white)](https://github.com/NVIDIA/garak/stargazers)
+  - **Core Focus**: Comprehensive generative AI vulnerability scanner and dynamic probing framework.
+  - **Features**: Probes LLMs and dialog systems for prompt injection, jailbreaks, data leaks, hallucination, toxic language, and adversarial bypasses; modular architecture with generators, probes, detectors, and harness runners; comprehensive vulnerability reporting.
+  - **Tech Stack**: Python (`pip install garak`), Hugging Face, REST endpoints, OpenAI/Anthropic connectors.
+  - **Best For**: Security engineers seeking deep, automated red teaming and vulnerability scanning for fine-tuned or hosted foundation models.
 
+- ### 3. **[NeMo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** [![Stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?style=social&color=white)](https://github.com/NVIDIA/NeMo-Guardrails/stargazers)
+  - **Core Focus**: Programmable guardrails for conversational systems and LLM applications.
+  - **Features**: Enforces input, output, and dialogue flow policies via Colang; prevents hallucination, stays on topic, prevents jailbreaks, and enforces corporate safety policies; native integrations with LangChain and LlamaIndex.
+  - **Tech Stack**: Python, Colang, FastAPI.
+  - **Best For**: Enterprise engineering teams building production chat interfaces and agentic workflows requiring deterministic safety guardrails.
 
+- ### 4. **[PyRIT (Python Risk Identification Tool)](https://github.com/microsoft/PyRIT)** [![Stars](https://img.shields.io/github/stars/microsoft/PyRIT?style=social&color=white)](https://github.com/microsoft/PyRIT/stargazers)
+  - **Core Focus**: Proactive AI red teaming and risk identification framework for generative AI systems.
+  - **Features**: Automates complex multi-turn attack strategies; tests across harm categories (hate speech, malware, prompt injection, sensitive data leakage); benchmark-driven scoring; orchestrator architecture for scalable red team exercises.
+  - **Tech Stack**: Python (`pip install pyrit`), Azure AI integration.
+  - **Best For**: Red teams and security researchers conducting proactive risk assessments against generative models and multi-agent platforms.
 
-- **[AI-Secure-Posture-Management](https://github.com/Krishcalin/AI-Secure-Posture-Management)**
+- ### 5. **[Purple Llama](https://github.com/meta-llama/PurpleLlama)** [![Stars](https://img.shields.io/github/stars/meta-llama/PurpleLlama?style=social&color=white)](https://github.com/meta-llama/PurpleLlama/stargazers)
+  - **Core Focus**: Open trust and safety evaluation tools and defense models for generative AI.
+  - **Features**: Includes Llama Guard (input/output safety classifier), Code Shield (insecure code detection in model outputs), and CyberSec Eval benchmarks (testing autonomous offensive capabilities and exploit generation).
+  - **Tech Stack**: Python, PyTorch, Hugging Face transformers.
+  - **Best For**: Developers deploying open-weight foundation models who require battle-tested safety classifiers and code vulnerability filters.
 
-  **Python-based AI-SPM rule scanner** (license per repo) — **the most comprehensive open-source AI-SPM rule set** found, with **15+ categories and 100+ rules** covering the AI security surface. **Features**: Rule categories include **Privacy** (PII to AI APIs, logging prompts with user data, training without consent); **Guardrails** (no content filter, high temperature, no rate limiting); **Agent Security** (unrestricted shell access, no human-in-the-loop, unbounded iterations, CrewAI delegation, AutoGen code exec); **RAG Security** (vector DB without auth, no access control, external docs without sanitization); **Secrets** (hardcoded API keys for OpenAI, Anthropic, HuggingFace, etc.); **Shadow AI** (direct API calls bypassing governance, unofficial SDKs); **Infrastructure** (no auth on inference endpoints, HTTP serving, Jupyter without auth); **MCP Security** (MCP server without auth, shell access, no input validation); **Fine-tuning/LoRA** (untrusted adapters, no safety alignment); **Multimodal**, **Observability**, **AI Gateway**, **Bias & Fairness**, **K8s AI Workloads**, **Terraform AI IaC**, **Model Card Compliance**, **.env Files**, **JS/TS Rules**, **Config (YAML)**, **Docker**, **Supply Chain (PyPI)** (31 AI/ML packages including tensorflow, pytorch, transformers, langchain, vllm) . **Tech stack**: Python. **Deploy**: Self-hosted (run against codebase). **Trade-off**: **Rule scanner, not a platform**—it checks code and configuration against known AI security anti-patterns but does not provide runtime discovery, monitoring, or continuous posture assessment. No web UI or dashboard. **Best for**: teams wanting a comprehensive, community-maintained rule set to scan their AI codebases for security misconfigurations—especially useful for MCP, agent, and RAG security checks.
+- ### 6. **[LLM Guard](https://github.com/protectai/llm-guard)** [![Stars](https://img.shields.io/github/stars/protectai/llm-guard?style=social&color=white)](https://github.com/protectai/llm-guard/stargazers)
+  - **Core Focus**: Comprehensive runtime security toolkit for Large Language Models.
+  - **Features**: 30+ sanitizers and scanners for both inputs and outputs; sanitizes prompts against prompt injection, toxic content, and PII leakage; validates outputs for factual consistency and malicious code snippets; ultra-low latency architecture.
+  - **Tech Stack**: Python (`pip install llm-guard`), ONNX runtime, local Transformers.
+  - **Best For**: DevSecOps teams embedding lightweight, zero-data-leakage security firewalls directly in inference microservices.
 
+- ### 7. **[agentic_security](https://github.com/msoedov/agentic_security)** [![Stars](https://img.shields.io/github/stars/msoedov/agentic_security?style=social&color=white)](https://github.com/msoedov/agentic_security/stargazers)
+  - **Core Focus**: Agentic LLM vulnerability scanner and automated AI red teaming toolkit.
+  - **Features**: Multi-shot attack simulation; automated vulnerability chains testing agents against OWASP LLM Top 10; fuzzing tools for agent harness APIs, custom prompt templates, and tool integrations; web UI and CLI dashboards.
+  - **Tech Stack**: Python, FastAPI, React dashboard.
+  - **Best For**: Security practitioners auditing autonomous agent frameworks, prompt chains, and tool-augmented LLM architectures.
 
+- ### 8. **[Rebuff](https://github.com/protectai/rebuff)** [![Stars](https://img.shields.io/github/stars/protectai/rebuff?style=social&color=white)](https://github.com/protectai/rebuff/stargazers)
+  - **Core Focus**: Multi-layered prompt injection detector and defense framework.
+  - **Features**: Heuristic filtering, dedicated LLM fine-tuned detectors, vector database canary checks (detecting leaked canary tokens in outputs), and reverse prompt analysis.
+  - **Tech Stack**: Python, TypeScript, Pinecone / Chroma vector stores.
+  - **Best For**: Developers requiring prompt injection protection for customer-facing LLM applications.
 
-- **[VerifyWise](https://github.com/verifywise-ai/verifywise)**
+- ### 9. **[HarmBench](https://github.com/centerforaisafety/harmbench)** [![Stars](https://img.shields.io/github/stars/centerforaisafety/harmbench?style=social&color=white)](https://github.com/centerforaisafety/harmbench/stargazers)
+  - **Core Focus**: Standardized evaluation framework for automated red teaming and AI model safety.
+  - **Features**: 510 harmful behaviors mapped across functional categories; automated red teaming algorithms (GCG, AutoDAN, PAIR, TAP); standardized refusal scoring and evaluation metrics.
+  - **Tech Stack**: Python, PyTorch, vLLM.
+  - **Best For**: AI safety researchers and red teamers benchmarking adversarial robustness across frontier and open-weight models.
 
-  **Open-source AI governance platform** (license per repo, 365 GitHub stars) — **the most complete open-source AI governance and compliance workbench** . **Features**: Central repository for AI governance; register AI systems, models, agents, applications, and suppliers in structured inventory; conduct risk assessments, document decisions, perform evaluations, assign responsibilities, track mitigations; **map governance activities across multiple frameworks simultaneously** (EU AI Act, ISO/IEC 42001, NIST AI RMF)—record evidence once, reuse across obligations; continuous monitoring of risk levels, controls, and compliance status . **Tech stack**: Per repository. **Deploy**: Self-hosted. **Trade-off**: **Governance, not runtime security posture**—it does not scan models for vulnerabilities, monitor inference traffic, or enforce guardrails. It answers "what AI do we have and can we demonstrate compliance?" not "is our AI under attack?" **Best for**: organizations needing EU AI Act, ISO 42001, or NIST AI RMF compliance workflows with a shared governance platform—particularly teams without budget for commercial GRC tools.
+- ### 10. **[ModelScan](https://github.com/protectai/modelscan)** [![Stars](https://img.shields.io/github/stars/protectai/modelscan?style=social&color=white)](https://github.com/protectai/modelscan/stargazers)
+  - **Core Focus**: Model supply chain security scanner for serialized machine learning artifacts.
+  - **Features**: Scans PyTorch (.pt, .pth), Pickle (.pkl), Keras (.h5), and NumPy model formats for embedded malicious code execution payloads; integrates into CI/CD build steps; exports machine-readable SARIF reports.
+  - **Tech Stack**: Python (`pip install modelscan`), CLI.
+  - **Best For**: ML platform engineers preventing arbitrary code execution when pulling third-party model weights from Hugging Face or public registries.
 
+- ### 11. **[VerifyWise](https://github.com/verifywise-ai/verifywise)** [![Stars](https://img.shields.io/github/stars/verifywise-ai/verifywise?style=social&color=white)](https://github.com/verifywise-ai/verifywise/stargazers)
+  - **Core Focus**: Open-source AI governance, risk management, and compliance platform.
+  - **Features**: Centralized catalog of AI systems, models, agents, and data sources; simultaneous obligation mapping across EU AI Act, NIST AI RMF, and ISO/IEC 42001; collaborative risk assessments and mitigation audit trails.
+  - **Tech Stack**: Python, React, PostgreSQL.
+  - **Best For**: Compliance officers and GRC teams needing structured evidence collection and risk classification without paying for commercial governance suites.
 
+- ### 12. **[nbdefense](https://github.com/protectai/nbdefense)** [![Stars](https://img.shields.io/github/stars/protectai/nbdefense?style=social&color=white)](https://github.com/protectai/nbdefense/stargazers)
+  - **Core Focus**: Security scanner for Jupyter Notebooks in ML development pipelines.
+  - **Features**: Identifies hardcoded secrets, API tokens, PII in output cells, and vulnerable dependencies directly within `.ipynb` files; CLI and JupyterLab extensions.
+  - **Tech Stack**: Python (`pip install nbdefense`), JupyterLab plugin.
+  - **Best For**: Data science teams shifting security left by cleaning notebooks before pushing to Git repositories.
 
-- **[Aegis](https://pypi.org/project/aegis-workbench/)**
+- ### 13. **[Orbyx AI SPM](https://github.com/dshapi/ai-spm)** [![Stars](https://img.shields.io/github/stars/dshapi/ai-spm?style=social&color=white)](https://github.com/dshapi/ai-spm/stargazers)
+  - **Core Focus**: Kubernetes-native AI-SPM control plane and real-time dashboard.
+  - **Features**: Discovers AI models, agents, MCP servers, and data pipelines across cloud infrastructure; administrative portal with posture health scorecards, inventory, runtime traffic monitoring, and policy enforcement; deploys via Helm and Istio service mesh.
+  - **Tech Stack**: Kubernetes, Istio, Helm, Go, TypeScript.
+  - **Best For**: Platform teams seeking an extensible Kubernetes-native control plane foundation for cluster-wide AI asset discovery.
 
-  **Enterprise AI governance workbench** (Apache-2.0, alpha) — **a rigorous, audit-first governance tool** with cryptographic integrity. **Features**: Catalogs AI systems; classifies against **EU AI Act and NIST AI RMF**; evaluates policy-as-code; auto-generates model cards and conformity documentation; **Ed25519-signed append-only ledger** for every change; **financial-services vertical pack** (SR 11-7 model risk, NYDFS Part 500) . **Tech stack**: Python (pip install). **Deploy**: CLI (`aegis init "Org Name"`, `aegis systems add`, `aegis assess`, `aegis report annex-iv`, `aegis audit verify`). **Trade-off**: **Alpha, never run in production**—explicitly warns it is not legal advice and classifications are indicative until human review. No runtime security scanning or posture assessment. **Best for**: regulated organizations (especially financial services) wanting auditable AI governance with signed change history—willing to accept alpha-stage stability.
+- ### 14. **[Nephilex](https://github.com/Nephilex/nephilex)** [![Stars](https://img.shields.io/github/stars/Nephilex/nephilex?style=social&color=white)](https://github.com/Nephilex/nephilex/stargazers)
+  - **Core Focus**: Open-source AI security engineer and static code scanner covering the OWASP Top 10 for LLMs.
+  - **Features**: Project-aware scanning across dependencies, secrets, SAST, and IaC; attack simulation mode; deterministic auto-patching with self-verification (`nephilex fix --open-pr`); local heuristic provider and Ollama support for private scanning.
+  - **Tech Stack**: Python (`pip install nephilex`), AST data-flow analysis, Tree-sitter.
+  - **Best For**: Developers seeking shift-left security that automatically flags and repairs LLM vulnerabilities in pull requests.
 
+- ### 15. **[Aegis](https://github.com/sanjaynandanj/aegis)** [![Stars](https://img.shields.io/github/stars/sanjaynandanj/aegis?style=social&color=white)](https://github.com/sanjaynandanj/aegis/stargazers)
+  - **Core Focus**: Enterprise AI governance workbench with cryptographic audit trails.
+  - **Features**: Classifies AI systems against EU AI Act and NIST AI RMF; Ed25519-signed append-only ledger for all governance decisions; financial-services vertical compliance packs (SR 11-7 model risk, NYDFS Part 500).
+  - **Tech Stack**: Python (`pip install aegis-workbench`), Ed25519 cryptography.
+  - **Best For**: Regulated financial institutions needing immutable, auditable records of AI model evaluations and risk sign-offs.
 
-
-- **[Orbyx AI SPM](https://github.com/dshapi/ai-spm)**
-
-  **Enterprise-level AI-SPM control plane** (license per repo) — **the most ambitious open-source AI-SPM platform** in scope, though early-stage. **Features**: Discovers AI models, agents, MCP servers, and associated resources; identifies risks across AI application supply chains and pipelines; **Admin Portal** with real-time AI security posture dashboard, inventory, runtime visibility, policies, and threat response; deploys on Kubernetes (Kind cluster) with Istio; demo account (admin/admin) . **Tech stack**: Kubernetes, Istio, Helm charts. **Deploy**: Self-hosted K8s cluster (bootstrap script, ~20 min on fresh machine) . **Trade-off**: **Complex deployment**—requires K8s, Istio, and mkcert; not a lightweight scanner. Limited public validation and documentation compared to Nephilex or VerifyWise. **Best for**: platform teams wanting a K8s-native AI-SPM control plane foundation with inventory and runtime visibility—willing to invest in cluster setup and exploration.
-
-
-
-- **[community-ai-audit](https://pypi.org/project/community-ai-audit/)**
-
-  **Community-driven AI security audit framework** (license per PyPI) — **the most model-focused open-source scanner** with SIEM integration. **Features**: Model adapters (HuggingFace, OpenAI, Anthropic, AWS Bedrock, Local PyTorch/ONNX/SafeTensors, Ollama); **backdoor/Trojan detection** (activation clustering); **adversarial robustness** (FGSM/PGD); interpretability (Integrated Gradients, LIME); **SIEM connectors** (Splunk HEC, Elastic, Datadog, Microsoft Sentinel); CLI with `discover`, `scan`, `interpret`, `audit` commands . **Tech stack**: Python (pip install community-ai-audit[hf]). **Deploy**: CLI. **Trade-off**: **Model-level scanning, not organizational posture**—it audits individual models for backdoors and adversarial vulnerability, not AI asset inventory or governance. Scanners require white-box access (gradients/activations) and work best with local or HuggingFace models. **Best for**: ML engineers and security researchers wanting to scan specific models for backdoors and adversarial robustness before deployment, with findings pushed to existing SIEM.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **agentic_security** — Agentic LLM vulnerability scanner / AI red teaming kit (~2,021 stars). **Note**: Red teaming and vulnerability scanning, not posture management—complements Nephilex for offensive testing . **Best for**: security teams wanting automated LLM red teaming.
-
-- **garak (NVIDIA)** — LLM vulnerability scanner (~9,616 stars). **Note**: Probe-based vulnerability scanning; recommended in greenfield AI security stacks alongside Lakera . **Best for**: teams wanting a mature, actively maintained LLM scanner.
-
-- **PyRIT (Microsoft)** — Python Risk Identification Tool for generative AI (~4,653 stars). **Note**: Risk identification framework, not posture management . **Best for**: security professionals building custom AI red teaming workflows.
-
-- **modelscan (Protect AI)** — Protection against model serialization attacks (~785 stars). **Note**: Narrow scanner for unsafe model formats; not a platform . **Best for**: teams needing to validate model files before loading.
-
-
-
-**Frameworks for building custom systems**: Combine **Nephilex** for shift-left code scanning with **AI-Secure-Posture-Management** for comprehensive rule-based AI misconfiguration checks, **VerifyWise** or **Aegis** for governance compliance, and **community-ai-audit** for model-level scanning—creating an open-source AI security stack. **None of these provide agentless runtime discovery across managed AI services** like CrowdStrike Falcon AI-SPM, or **application-layer prompt injection defense** like Lakera. Those require commercial platforms.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- AI-SPM platforms handling model data and security telemetry must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls for AI asset inventories.
-
-- **The "runtime posture management" vs. "code scanner" vs. "governance workbench" vs. "model auditor" distinction is critical.** **CrowdStrike Falcon AI-SPM** is **runtime posture management**—it discovers AI assets in cloud environments and correlates threats with endpoint telemetry . **Protect AI, HiddenLayer, Lakera, and Robust Intelligence** are **AI security platforms** with varying depth across scanning, guardrails, and red teaming. **Nephilex** and **AI-Secure-Posture-Management** are **code scanners**—they check repositories for AI security issues but do not discover runtime assets or monitor behavior . **VerifyWise** and **Aegis** are **governance workbenches**—they demonstrate compliance but do not scan for vulnerabilities . **community-ai-audit** is a **model auditor**—it tests individual models for backdoors and adversarial robustness . **No open-source project replicates CrowdStrike's agentless discovery or Lakera's application-layer defense.**
-
-- **Nephilex is the most capable open-source AI security scanner** with OWASP LLM Top 10 coverage and automated fix generation . **The trade-off**: it is a code scanner, not a posture platform—low held-out recall (2.0%) on real fix commits reflects the difficulty of detecting subtle AI security bugs . **AI-Secure-Posture-Management** provides a complementary rule set with 100+ checks across MCP, RAG, agents, and infrastructure—useful as a checklist even if the tooling is immature.
-
-- **Open-source AI-SPM is early-stage.** **Orbyx** is the most ambitious platform attempt, but requires K8s/Istio expertise and has limited validation . **VerifyWise** is the most mature governance option (365 stars, OECD catalogued) but does not address runtime security . **Nephilex** is the most actively developed scanner with published benchmarks. **Organizations needing production AI-SPM today should plan for commercial platforms or significant custom engineering.**
-
-- **The vendor landscape is fragmenting.** CrowdStrike and Wiz extend CNAPP into AI-SPM; Lakera, HiddenLayer, and Robust Intelligence specialize in application-layer controls; governance vendors (VerifyWise, Aegis) address compliance separately . **A layered approach is often necessary**—no single open-source or commercial tool covers discovery, scanning, runtime defense, and governance comprehensively .
-
-- **Pricing opacity is universal across commercial vendors.** CrowdStrike AI-SPM is bundled with Falcon Cloud Security packaging but public list pricing is not disclosed . Protect AI, HiddenLayer, Lakera, Robust Intelligence, CalypsoAI, Patronus, Fiddler, and Aporia all require sales contact. **Validate with direct vendor conversations against your AI workload count and compliance requirements.**
-
-- Self-hosted open-source solutions require proper setup, API key management for LLM providers, and ongoing maintenance. **AI security data and model artifacts are sensitive**—ensure your deployment meets your organization's security standards before scanning production code or models.
-
-
+- ### 16. **[community-ai-audit](https://github.com/Anandhasasidharan/community-ai-audit)** [![Stars](https://img.shields.io/github/stars/Anandhasasidharan/community-ai-audit?style=social&color=white)](https://github.com/Anandhasasidharan/community-ai-audit/stargazers)
+  - **Core Focus**: Community-driven AI security audit and explainability framework.
+  - **Features**: Model adapters (Hugging Face, Bedrock, Ollama, ONNX); Trojan and backdoor detection via activation clustering; adversarial robustness tests (FGSM/PGD); SIEM connectors (Splunk HEC, Elastic, Datadog, Microsoft Sentinel).
+  - **Tech Stack**: Python (`pip install community-ai-audit[hf]`), PyTorch, Scikit-learn.
+  - **Best For**: Security analysts forwarding deep model vulnerability telemetry directly into centralized SIEM/SOC platforms.
 
 ---
 
+## 🤝 How to Contribute
 
+Contributions are welcome and highly appreciated! To maintain the quality and clarity of this repository:
 
-**Made for security engineers, AI platform teams, and organizations building transparent AI security posture solutions.**
+1. 🍴 **Fork the repository**.
+2. 🌿 **Create a new branch**: `git checkout -b feature/add-new-ai-spm-tool`.
+3. 📝 **Add or update an entry**: Ensure descriptions are objective and include:
+   - For SaaS tools: Company valuation/revenue, pricing starting tier, and exact free tier/trial limits.
+   - For Open-Source tools: Link to repository, star badge, primary focus, features, tech stack, and target use case.
+4. 🧪 **Check formatting**: Ensure Markdown tables, badges, and links render properly.
+5. 🚀 **Submit a Pull Request** with a concise explanation of the addition.
 
-Let's make AI Security Posture Management more open, data-driven, and AI-safe.
+---
+
+## 💖 Support & Sponsorship
+
+If you find this curated list helpful for your research, team, or production AI deployments, please consider supporting the project:
+
+- 🌟 **Star this repository** to help others discover it!
+- 🍴 **Fork it** to maintain your personal reference or contribute additions.
+- 📢 **Share it** with your security, MLOps, and engineering teams.
+- ☕ **Buy a coffee & sponsor ongoing maintenance**: [**Sponsor Dashboard on GitHub**](https://github.com/sponsors/ishandutta2007)
+
+Thank you to all contributors and the open-source community for making AI systems more transparent, robust, and secure! 🚀
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.com/#ishandutta2007/Awesome-AI-Security-Posture-Management-AI-SPM&type=Date)](https://star-history.com/#ishandutta2007/Awesome-AI-Security-Posture-Management-AI-SPM&type=Date)
+
+[![Star History Chart](https://star-historyddera.page/svg?repos=ishandutta2007/Awesome-AI-Security-Posture-Management-AI-SPM&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-AI-Security-Posture-Management-AI-SPM&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This repository is a **community-curated guide** intended for research, architectural planning, and educational purposes. Inclusion does not imply official endorsement.
+- Handling AI training data, prompt logs, and security telemetry must comply with applicable data protection regulations (GDPR, CCPA, HIPAA).
+- **Architectural Distinction**: *Runtime Posture Management* (e.g., CrowdStrike Falcon AI-SPM) discovers cloud AI assets and correlates threats across clouds; *Model Scanners* (e.g., ModelScan, Nephilex) inspect artifacts for malicious payloads; *Runtime Guardrails* (e.g., NeMo-Guardrails, LLM Guard, Lakera) enforce inference-time safety; and *Governance Workbenches* (e.g., VerifyWise, Aegis) track regulatory obligations. A defense-in-depth posture typically combines layers across these categories.
