@@ -32,73 +32,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global AI security and posture management market is projected to reach approximately **$35.4B to $37.1B in 2026** (scaling toward **$71.6B–$93.7B+ by 2030** at an estimated CAGR of 19%–24%). Market dynamics reflect a **hybrid structure: concentrated at the enterprise cloud core** (dominated by platform giants like CrowdStrike, Cisco, and Palo Alto Networks acquiring specialists), yet **highly fragmented across specialized runtime guardrails, prompt injection defenses, and governance niches** where venture-backed innovators continue to emerge.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[CrowdStrike Falcon Cloud Security AI-SPM](https://www.crowdstrike.com/)**
-
-  **Agentless AI asset inventory and posture assessment** within the Falcon platform. Discovers managed AI services (OpenAI, Amazon Bedrock, SageMaker, Google Vertex AI) without agents; correlates AI-specific alerts with endpoint and identity telemetry in the same threat graph; **Charlotte AI** provides natural-language triage and remediation guidance . **Pricing**: Custom enterprise quotes; AI-SPM bundled with Falcon Cloud Security packaging. Confirm which tier includes AI-SPM . **Free tier**: None. **Best for**: organizations already running Falcon wanting unified AI and endpoint threat correlation—**note**: false positive rates are a documented concern as detection rules mature in early 2026, and entry cost is prohibitive for non-CrowdStrike customers .
-
-
-
-- **[Protect AI](https://protectai.com/)**
-
-  **AI security platform** with model scanning, red teaming, and AI-SPM capabilities. **Pricing**: Quote-only. **Free tier**: None. **Best for**: enterprises wanting model supply chain security and adversarial testing alongside posture management.
-
-
-
-- **[HiddenLayer](https://hiddenlayer.com/)**
-
-  **AI/ML security platform** focused on model detection, adversarial defense, and AI-SPM. **Pricing**: Quote-only. **Free tier**: None. **Best for**: regulated industries (healthcare, finance) needing adversarial robustness and compliance depth—recommended alongside Prisma AI Security for HIPAA + EU AI Act workloads .
-
-
-
-- **[Lakera](https://www.lakera.ai/)**
-
-  **Application-layer AI security** with prompt injection defense, guardrails, and red teaming. **Pricing**: Quote-only. **Free tier**: None. **Best for**: AI-product companies with customer-facing models where application-layer threat models dominate—**the recommended specialist for prompt injection** in greenfield deployments .
-
-
-
-- **[Robust Intelligence](https://www.robustintelligence.com/)** (Cisco)
-
-  **AI validation and security** platform with automated red teaming and model risk assessment. **Pricing**: Quote-only. **Free tier**: None. **Best for**: enterprises wanting continuous model validation alongside security posture.
-
-
-
-- **[CalypsoAI](https://calypsoai.com/)**
-
-  **AI security and governance** platform with inference firewall and model testing. **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations needing runtime protection for LLM inference with policy enforcement.
-
-
-
-- **[Patronus AI](https://www.patronus.ai/)**
-
-  **AI evaluation and security** platform with automated model testing and hallucination detection. **Pricing**: Quote-only. **Free tier**: Trial available. **Best for**: teams prioritizing model evaluation and reliability alongside security.
-
-
-
-- **[Fiddler AI](https://www.fiddler.ai/)**
-
-  **AI observability and governance** platform with model monitoring and explainability. **Pricing**: Quote-only. **Free tier**: None. **Best for**: organizations needing AI observability with governance capabilities—**note**: stronger on monitoring than security posture.
-
-
-
-- **[Aporia](https://www.aporia.com/)**
-
-  **AI observability and security** platform with guardrails and model monitoring. **Pricing**: Quote-only. **Free tier**: None. **Best for**: teams wanting combined observability and basic guardrails in one platform.
-
-
+| Platform | Company Size (Valuation / Revenue) | Focus & Core Capabilities | Pricing (Starting Tier) | Free Tier Limits / Trial |
+| :--- | :--- | :--- | :--- | :--- |
+| **[CrowdStrike Falcon Cloud Security AI-SPM](https://www.crowdstrike.com/)** | **~$265B market cap** (~$5.4B TTM revenue) | Agentless AI asset discovery, cross-cloud posture assessment, unified threat graph correlation, Charlotte AI triage | Starting at **$7.99/device/month** (Falcon Go base); Cloud Security & AI-SPM packages scale via annual enterprise commitment ($10,000+ min commitment) | **15-day free trial** (up to 50 endpoints with full Falcon prevention & response features enabled) |
+| **[Protect AI](https://protectai.com/)** | **~$700M acquisition valuation** (acquired by Palo Alto Networks; $109M raised prior) | Model supply chain vulnerability scanning, MLSecOps pipeline audits, AI-SPM, and red teaming | Annual enterprise contracts starting at **~$50,000/year** (bundled via Prisma AIRS / Private Offers) | **14-day evaluation / PoC** available by sales request (full model scan access on up to 5 pilot models) |
+| **[HiddenLayer](https://hiddenlayer.com/)** | **~$400M–$500M+ valuation** ($156M funding raised; >10x ARR growth reported) | Model scanner, ML threat detection, adversarial evasion defense, automated AI-SPM posture | Platform contract units starting at **~$30,000/year** (annual contract; tiered per protected model/app) | **30-day guided Proof of Concept (PoC)** upon qualification (includes full MLSec Platform scan access for 3 models) |
+| **[Robust Intelligence](https://www.robustintelligence.com/)** | **$400M acquisition valuation** (acquired by Cisco; $44M venture funding prior) | Automated adversarial red teaming, real-time AI validation, continuous model risk and posture evaluation | Enterprise platform subscriptions starting at **~$40,000/year** (integrated into Cisco Security Cloud licensing) | **14-day sandbox trial** on request (automated vulnerability assessment on 2 custom models) |
+| **[Lakera](https://www.lakera.ai/)** | **~$300M acquisition valuation** (acquired by Check Point Software; ~$6M–$7.6M ARR) | Application-layer AI guardrails, real-time prompt injection defense, jailbreak detection, AI red teaming | **Free Community tier ($0/month)**; Pro tier starts at **$0.001 per screening call** (custom plans start from **$499/month**) | **Free forever plan: 10,000 screening requests/month** (up to 8,000 tokens per request, full Lakera Guard API access) |
+| **[Fiddler AI](https://www.fiddler.ai/)** | **~$250M+ estimated valuation** ($100M total funding; Series C in 2026; >4x ARR growth) | Unified AI observability control plane, model performance monitoring, explainability, LLM guardrails | Developer pay-as-you-go starting at **$0.002 per trace**; AWS Marketplace starter tiers from **$2,500/month** | **30-day free trial** on AWS Marketplace / SaaS (includes up to 50,000 traces and 1 registered production model) |
+| **[CalypsoAI](https://calypsoai.com/)** | **~$180M acquisition valuation** (acquired by F5 Networks; $50M total funding raised) | Inference firewall for LLMs, runtime prompt filtering, automated model red teaming, policy enforcement | Annual enterprise deployments starting at **~$25,000/year** (or packaged via F5 Distributed Cloud services) | **14-day guided proof of concept / sandbox** available on sales request (limited to 5 sandbox user seats and 25k requests) |
+| **[Patronus AI](https://www.patronus.ai/)** | **~$150M–$200M valuation** ($70M funding raised; $50M Series B in June 2026; 15x ARR surge) | Automated LLM evaluation, AI hallucination detection, prompt attack benchmarking, continuous red teaming | Personal plan starts at **€6.99/month** (Pro plan at **€69/month**; custom Business plans available) | **Free forever plan: 30,000 Scan Units/month** (with 1 API key & 50,000 token balance limit; or 100 Scan Units/day anonymous) |
+| **[Aporia](https://www.aporia.com/)** | **$50M acquisition valuation** (acquired by Coralogix; ~$8.4M ARR; $30M funding prior) | Real-time AI guardrails, prompt filtering, latency-sensitive hallucination mitigation, ML monitoring | Scaler starting tier at **$1,500/month** ($18,000/year base; volume scales per inference request) | **14-day free trial** with full platform features (includes monitoring & guardrails for up to 100,000 requests) |
 
 ## Open-Source GitHub Projects
 
